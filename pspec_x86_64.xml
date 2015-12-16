@@ -1,0 +1,36 @@
+<PISI>
+    <Source>
+        <Name>arc-plank-theme</Name>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Packager>
+        <License>GPL-3.0</License>
+        <Summary xml:lang="en">Arc Plank Theme</Summary>
+        <Description xml:lang="en">Arc Plank Theme by horst3180
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>arc-plank-theme</Name>
+        <Summary xml:lang="en">Arc Plank Theme</Summary>
+        <Description xml:lang="en">Arc Plank Theme by horst3180
+</Description>
+        <PartOf>desktop</PartOf>
+        <RuntimeDependencies>
+            <Dependency>plank</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="data">/usr/share/plank</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2015-12-16</Date>
+            <Version>20151214</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
