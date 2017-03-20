@@ -1,14 +1,14 @@
 name       : arc-plank-theme
-version    : 20161119
-release    : 2
+version    : '20170302'
+release    : 3
 source     :
-    - https://github.com/horst3180/Arc-theme/archive/20161119.tar.gz : a470ab33b1ad2b4ba280e61f0e1c4f8d4973ceccc84dc2db1e37fae66b5770cd
+    - https://github.com/horst3180/arc-theme/archive/20170302.tar.gz : 9ca5c1d1ac267c4ae3725e84519d42bfb8c4c6934989839ebe3cb8699fbdfd45
 license    : GPL-3.0
 component  : desktop.theme
 summary    : Arc Plank Theme
 description: |
     Arc Plank Theme by horst3180
-rundeps     :
+rundeps    :
     - plank
 install    : |
     install -D -m 00644 extra/Arc-Plank/dock.theme $installdir/usr/share/plank/themes/Arc-Plank/dock.theme
